@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remove-project name="android_bootable_recovery" />
-  <project groups="pdk" name="multirom-nexus6p/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="android-6.0" />
+  <project groups="pdk" name="multirom-nexus6p/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="android-6.0-mrom" />
   <project name="multirom-nexus6p/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="mm" />
   <project name="multirom-nexus6p/TWRP-android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-6.0-mrom-notheme" />
   <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-13.0" />
