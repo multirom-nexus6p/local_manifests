@@ -1,19 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <remove-project name="android_bootable_recovery" />
-  <project groups="pdk" name="multirom-nexus6p/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="android-6.0-mrom" />
-  <project name="multirom-nexus6p/android_kernel_huawei_angler" path="kernel/huawei/angler" remote="github" revision="mm" />
-  <project name="multirom-nexus6p/TWRP-android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="android-6.0-mrom-notheme" />
-  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-13.0" />
-  <project name="multirom-nexus6p/multirom" path="system/extras/multirom" remote="github" revision="master" />
-  <project groups="pdk" name="Tasssadar/libbootimg" path="system/extras/libbootimg" remote="github" revision="master" />
-  <project name="multirom-ports/android_device_asus_flo" path="device/asus/flo" remote="github" revision="android-6.0-mrom" />
-  <project name="multirom-ports/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="android-6.0-mrom" />
-  <project name="multirom-ports/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="mm2" />
-  <project name="multirom-ports/android_device_google_molly" path="device/google/molly" remote="github" revision="android-6.0-mrom" />
-  <project name="multirom-ports/android_kernel_google_molly" path="kernel/google/molly" remote="github" revision="android-6.0-mrom" />
-  <project name="multirom-ports/proprietary_vendor_google" path="vendor/google" remote="github" revision="mm-tablet" />
-</manifest>
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>                                                                                                                                            │··························································
+<manifest>                                                                                                                                                                        │··························································
+  <remove-project name="LineageOS/android_bootable_recovery" />                                                                                                                   │··························································
+  <project groups="pdk" name="MultiROM-Nexus6P/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="android-7.1-mrom" />                                 │··························································
+  <project name="nathanchance/angler" path="kernel/huawei/angler" remote="github" revision="7.1.2-flash" />                                                                       │··························································
+  <project name="MultiROM-Nexus6P/android_device_huawei_angler" path="device/huawei/angler" remote="github" revision="cm-14.1" />                                                 │··························································
+  <project name="TheMuppets/proprietary_vendor_huawei" path="vendor/huawei" remote="github" revision="cm-14.1" />                                                                 │··························································
+  <project name="MultiROM-dev/multirom" path="system/extras/multirom" remote="github" revision="master" />                                                                        │··························································
+  <project groups="pdk" name="Tasssadar/libbootimg" path="system/extras/libbootimg" remote="github" revision="master" />                                                          │··························································
+  <project name="multirom-dev/multirom_adbd" path="system/extras/multirom/adbd" remote="github" revision="master" />                                                              │··························································
+  <project name="multirom-nexus6p/kexec-tools" path="system/extras/multirom/kexec-tools-arm64" remote="github" revision="arm64" />                                                │··························································
+  <project name="Tasssadar/kexec-tools" path="system/extras/multirom/kexec-tools" remote="github" revision="master" />                                                            │··························································
+  <project name="omnirom/android_hardware_qcom_gps" path="hardware/qcom/gps" remote="github" revision="android-7.1" />                                                            │··························································
+</manifest>                                                                                                                                                                       │··························································
